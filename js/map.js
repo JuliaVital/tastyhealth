@@ -9,8 +9,8 @@ jQuery(function ($) {
             position: mylocation,
             title: "Localização"
         });
-        var map = new google.maps.Map(document.getElementsById("map1"),
-            mapOptions);
+        var map = new google.maps.Map(document.getElementById("map1"),
+            mapOption);
             marker.setMap(map);
     }
     init_map1();
