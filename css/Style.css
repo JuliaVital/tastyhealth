@@ -467,12 +467,6 @@ a {
 
 /*Fim mapa CSS*/
 
-.p1 {
-    font-size: medium;
-    text-decoration: overline;
-}
-
-.search {
-    position: center;
-    margin: 25px;
+.search-box {
+    margin-left: 25px;
 }
