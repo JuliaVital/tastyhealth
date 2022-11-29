@@ -1,14 +1,183 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="./bootstrap/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="./css/Style.css">
+    <script type="text/javascript" src="./js/jquery-1.10.2.min.js"></script>
+    <link rel="shortcut icon" hreaf="./img/_ico/brazil-.ico">
+    <title>Sabor Saudável | Receitas </title>
 </head>
 <body>
-    
-    
+    <!--Aula 27/09/2022-->
+    <!--Inicio do Menu Responsivo-->
+<header id="header">
+    <a id="logo" href="index.html"><img src="./img/masterchef1.png" alt="Logo Sabor Saudável"></a>
+        <nav id="nav">
+            <button aria-label="Abrir Menu" id="btn-mobile" aria-haspopup="true" aria-controls="Menu" aria-expanded="false">
+                <span id="hamburger"></span>
+            </button>
+            <ul id="menu" role="menu">
+                <li><a class="linkMenu" href="index.html">Home</a></li>
+                <li><a class="linkMenu" href="comidas.html">Comidinhas</a></li>
+                <li><a class="linkMenu" href="media.html">Videos</a></li>
+                <li><a class="linkMenu" href="bebidas.html">Bebidas</a></li>
+                <li><a class="linkMenu" href="contato.html">Contato</a></li>
+            </ul>
+        </nav>
+</header>
+     <!---fim do menu responsivo-->
+
+     <!--BUSCA-->
+        <p1>O MELHOR BUSCADOR</p1>
+        <script async src="https://cse.google.com/cse.js?cx=756008e85ce744dcb">
+        </script>
+        <div class="gcse-searchbox-only"></div>
+
+    <!---Inicio Área Form Contato-->
+    <div class="destaque">
+        <div class="container">
+            <div class="row d-flex justify-content-center">
+                <!---Inicio da tag section com texto de contato-->
+                <section class="col-12">
+                    <h2>Entre em contato conosco!!</h2>
+                    <p>Para dúvidas, elogios e reclamações.</p>
+                </section>
+                <!--Fim da tag section com o texto de contato-->
+
+                <!--Inicio formulario-->
+                <div class="col-md-6">
+                    <div class="well wel-sm">
+                        <form class="form-horizontal" method="post">
+                            <fieldset>
+                                <legend class="text-left header">Formulário de Contato!</legend>
+                                <div class="form-group">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <input id="fname" name="name" type="text"
+                                        placeholder="Insira seu primeiro nome"
+                                        class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <input id="lname" name="name" type="text"
+                                        placeholder="Insira seu último nome"
+                                        class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <input id="email" name="email" type="email"
+                                        placeholder="Insira seu email"
+                                        class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <input id="phone" name="phone" type="phone"
+                                        placeholder="Insira seu telefone"
+                                        class="form-control" required>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-10 col-md-offset-1">
+                                        <textarea id="message" name="messsage"
+                                        placeholder="Insira sua mensagem que retornaremos em até 2 dias úteis"
+                                        class="form-control" rows="7" required></textarea>
+                                    </div>
+                                </div>
+                                <div class="form-group">
+                                    <div class="col-md-12 text-center">
+                                        <button type="submit" class="formbutton">Enviar</button>
+                                    </div>
+                                </div>
+                            </fieldset>
+                        </form>
+                    </div>
+                </div>
+                <!--Fim do formulário-->
+                <div class="col-md-6">
+                    <div>
+                        <div class="panel panel-default">
+                                <div class="text-center header">#Onde estamos localizados</div>
+                                <div class="panel-body text-center">
+                                    <h4>Endereço</h4>
+                                    <div>Avenida do Prado, 123 <br />
+                                    Centro, São Paulo - SP - CEP: 12345-000</div>
+                                        <hr/>
+                                </div>
+                      </div>
+                        <div class="map"> 
+                           <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3659.2775070123225!2d-47.45103468502368!3d-23.486511984720096!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94c58a9f61b55945%3A0x4ead928c70b1e690!2sEscola%20e%20Faculdade%20de%20Tecnologia%20SENAI%20Gaspar%20Ricardo%20J%C3%BAnior!5e0!3m2!1spt-BR!2sbr!4v1666656834935!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                       </div>
+                    </div>
+                 </div>
+                </div>
+
+           </div>
+        </div>
+    </div>
+                    <!-- início footer -->
+                    <footer class="rodape">
+                        <div class="container">
+                            <div class="row m-0">
+                                <!-- início da logomarca -->
+                                <div class="col-md-4">
+                                    <figure>
+                                        <img src="./img/senai_small.jpg" alt="logo-rodape" width="40%">
+                                    </figure>
+                                </div>
+                                <!-- fim da logomarcar -->
+                                <!-- início do texto rodape -->
+                                <div class="col-md-4">
+                                    <div class="info-contato">
+                                        <p>email:</p>
+                                        <p><a href="mailto:example@corp.net">example@corp.net</a></p><br>
+                                        <p>Endereço:</p>
+                                        <p>Avenida do Prado, 123</p><br>
+                                        <p>Telefone:</p>
+                                        <p>+55 (11) 98888-1234</p>
+                                    </div>
+                                </div>
+                                <!-- fim do texto -->
+                                <!-- início das mídias sociais -->
+                                <div class="col-md-4">
+                                    <figure class="redes-sociais">
+                                        <a href="https://facebook.com"><img src="./img/face.png"></a>
+                                        <a href="https://instagram.com"><img src="./img/insta.png"></a>
+                                        <a href="https://youtube.com"><img src="./img/youtube.png"></a>
+                                        <a href="https://linkedin.com"><img src="./img/linkedin.png"></a>
+                                    </figure>
+                                    <br>
+                                    <!-- Repetir opções do menu do Site -->
+                                    <a href="index.html">Home</a><br>
+                                    <a href="comidas.html">Comidinhas</a><br>
+                                    <a href="media.html">Videos</a><br>
+                                    <a href="bebidas.html">Bebidas</a><br>
+                                </div>
+                                <!-- fim das mídias sociais -->
+                                <div class="col-12">
+                                    <p class="direitos">Direitos Autorais</p>
+                                </div>
+                                <!-- fim direitos autorais -->
+                            </div>
+                        </div>
+                    </footer>
+                    <!-- fim texto galeria -->
 
 </body>
+
+    <script></script>
+
+    <script type="text/javascript" src="./bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="./js/script_menu.js"></script>
+
+    <script type="text/javascript" src="./js/map.js"></script>
+
+    <script src="http://maps.google.com/maps/api/js?sensor=false"></script>
+
 </html>
+
